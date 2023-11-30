@@ -22,7 +22,11 @@ body {
     padding: 0px 7%;
   }
 }
-
+.logo{
+  max-width: 120px;
+  position: absolute;
+  top: 0px;
+}
 .accordion-item {
 	border: none;
 }
@@ -335,7 +339,7 @@ button:focus:not(:focus-visible) {
 
 @media (min-width: 576px) {
   .main-banner {
-    padding: 270px 0px 400px 0px;
+    padding: 150px 0px 200px 0px;
   }
 }
 

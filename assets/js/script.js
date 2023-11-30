@@ -8,7 +8,9 @@ async function getReciters(){
     const chooseReciter = document.querySelector('#chooseReciter')
     const res = await fetch(`${apiUrl}/reciters?language=${language}`)
     const data = await res.json()
+
     chooseReciter.innerHTML = `<option value="">اختر القارئ</option>`
+
     data.reciters.forEach(reciter => chooseReciter.innerHTML += `<option value="${reciter.id}">${reciter.name}</option>`);
     chooseReciter.addEventListener('change', e => getMoshaf(e.target.value))
 } 
@@ -25,7 +27,8 @@ async function getMoshaf(reciter){
     const res = await fetch(`${apiUrl}/reciters?language=${language}&reciter=${reciter}`)
     const data = await res.json()
     const moshaf = data.reciters[0].moshaf
-
+    
+    console.log(moshaf);
     chooseMoshaf.innerHTML =
     `<option
        value=""
@@ -67,13 +70,16 @@ async function getSurah(surahServer , surahList){
     surahList= surahList.split(',')
 
     chooseSurah.innerHTML = `<option value="">اختر السورة</option>`
+
     surahList.forEach(surah => {
         const padSurah = surah.padStart(3,'0')
+
         surahNames.forEach(surahName => {
             if(surahName.id == surah){
                 chooseSurah.innerHTML += `<option value="${surahServer}${padSurah}.mp3" >${surahName.name}</option> `
             }
         })
+
     })
 
     chooseSurah.addEventListener('change', e => {
@@ -90,7 +96,7 @@ function playSurah(surahMp3) {
 }
 function playLive(channel){
     if(Hls.isSupported()) {
-        var video = document.getElementById('video');
+        var video = document.getElementById('liveVideo');
         var hls = new Hls();
         hls.loadSource(`${channel}`);
         hls.attachMedia(video);

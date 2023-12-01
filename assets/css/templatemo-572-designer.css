@@ -1313,7 +1313,21 @@ section.explore-item .projects-pagination .right-content h6 {
 section.explore-item .projects-pagination .right-content h6:hover {
   color: #ff565b;
 }
-
+.card-header{
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #302e2e;
+}
+.suwar button{
+  background: #FF9C33;
+  border: none;
+  font-size: 20px;
+}
+.btn-primary:hover{
+  transform: scale(1.01);
+  /* translate: ease 1ms; */
+}
 section.explore-item .projects-pagination .right-content span {
   font-size: 15px;
   color: #7a7a7a;

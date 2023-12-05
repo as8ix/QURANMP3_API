@@ -234,7 +234,7 @@ header.nav-scrolled .main-navigation .navbar-nav {
 header.nav-scrolled .main-navigation .navbar-nav .nav-item .nav-link {
   border-top: none;
   padding: 8px 15px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.5px;
 }
 
@@ -294,10 +294,10 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 
 .navbar-light .navbar-nav .nav-item .nav-link {
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   padding: 12px 20px;
-  font-weight: 400;
+  font-weight: 600;
   border-top: 2px solid transparent;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -308,7 +308,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light .navbar-nav .nav-item .active {
-  font-weight: 400;
+  font-weight: 600;
   color: #ff565b;
   background-color: transparent;
   border-radius: 0px;
@@ -350,25 +350,22 @@ button:focus:not(:focus-visible) {
 }
 
 .main-banner h6 {
-  font-size: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2.5px;
+  font-size: 50px;
+  color: #ffffffce;
+  font-weight: 600;
 }
 
 .main-banner h2 {
-  color: #ffffff;
-  font-size: 50px;
-  font-weight: 700;
-  text-transform: uppercase;
+  color: #ffffffce;
+  font-size: 90px;
+  font-weight: 600;
   margin-top: 15px;
   margin-bottom: 25px;
 }
 
 .main-banner h2 em {
   font-style: normal;
-  color: #ff565b;
+  color: #ff565bce;
 }
 
 .search-form {
@@ -391,8 +388,8 @@ button:focus:not(:focus-visible) {
 }
 
 .search-form #search-form label {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -406,8 +403,8 @@ button:focus:not(:focus-visible) {
   width: 100%;
   height: 44px;
   border-radius: 7.5px;
-  border: 1px solid #eeeeee;
-  font-size: 14px;
+  border: 1px solid #7f7d7d87;
+  font-size: 18px;
   padding: 0px 15px;
   margin-bottom: 30px;
 }

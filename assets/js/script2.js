@@ -12,13 +12,12 @@ async function displaySuwar(){
     displaySurah.innerHTML += `<button onclick="playAudio(this.value)" type="button" class="btn btn-primary col-3 mx-2 my-2" style="width: 250px"
         value=${item.url}> تفسير ${item.name}</button>`);
         
-    
 
 }
+displaySuwar();
 function playAudio(audioSrc) {
     var audioPlayer = document.getElementById('audioPlayer');
     audioPlayer.src = audioSrc;
     audioPlayer.play();
   }
   playAudio()
-  displaySuwar();

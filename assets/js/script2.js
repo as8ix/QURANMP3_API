@@ -15,12 +15,13 @@ async function displaySuwar(){
 
 }
 displaySuwar();
+
 function playAudio(audioSrc) {
     var audioPlayer = document.getElementById('audioPlayer');
     audioPlayer.src = audioSrc;
     audioPlayer.play();
-  }
-  playAudio()
+}
+playAudio()
 
   function playLive(channel){
     if(Hls.isSupported()) {

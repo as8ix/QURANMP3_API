@@ -54,12 +54,14 @@ ul {
 
 ul li {
   display: inline-block;
+  text-shadow: 1px 1px 5px #000;
 }
 
 p {
   font-size: 15px;
   line-height: 28px;
-  color: #7a7a7a;
+  color: #ECF4D6;
+  text-shadow: 2px 1px 5px #000;
 }
 
 button.main-button {
@@ -67,7 +69,7 @@ button.main-button {
   text-transform: capitalize;
   font-weight: 400;
   color: #ffffff;
-  background-color: #ff565b;
+  background-color: #9AD0C2;
   padding: 11px 25px;
   border-radius: 7.5px;
   display: inline-block;
@@ -86,7 +88,7 @@ button.main-button:hover {
   text-transform: capitalize;
   font-weight: 400;
   color: #ffffff;
-  background-color: #ff565b;
+  background-color: #9AD0C2;
   padding: 11px 25px;
   border-radius: 7.5px;
   display: inline-block;
@@ -102,7 +104,7 @@ button.main-button:hover {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #ff565b;
+  color: #9AD0C2;
   background-color: #ffffff;
   padding: 11px 25px;
   border-radius: 7.5px;
@@ -113,9 +115,11 @@ button.main-button:hover {
 
 .white-button a:hover {
   color: #ffffff;
-  background-color: #ff565b;
+  background-color: #9AD0C2;
 }
-
+.form{
+  background-color: #3F4E4F;
+}
 section {
   margin-top: 00px;
   padding-top: 60px;
@@ -151,7 +155,7 @@ section {
 }
 
 .section-heading h2 em {
-  color: #ff565b;
+  color: #265073;
   font-style: normal;
   padding-left: 100px;
   position: relative;
@@ -160,7 +164,7 @@ section {
 .section-heading h2 em::before {
   width: 80px;
   height: 2px;
-  background-color: #ff565b;
+  background-color: #265073;
   content: '';
   position: absolute;
   left: 0;
@@ -187,7 +191,7 @@ section {
 
 .loader svg path,
 .loader svg rect {
-  fill: #ff565b;
+  fill: #9AD0C2;
 }
 
 .main-navigation {
@@ -304,13 +308,15 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #ff565b;
+  color: #9AD0C2;
 }
 
 .navbar-light .navbar-nav .nav-item .active {
   font-weight: 600;
   color: #ff565b;
   background-color: transparent;
+  text-shadow:none;
+
   border-radius: 0px;
   border-top: none;
 }
@@ -374,7 +380,8 @@ button:focus:not(:focus-visible) {
 
 .search-form #search-form {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #2C3639;
+  color: #eeeeee;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 7.5px;
@@ -454,7 +461,7 @@ section.explore-work .right-content ul li ul.info li {
 
 section.explore-work .right-content ul li ul.info li span {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #ECF4D6;
   display: block;
   width: 250px;
   height: 50px;
@@ -717,18 +724,20 @@ section.contact-us #map iframe {
 }
 
 footer.no-margin-footer {
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 footer {
-  margin-top: 80px;
+  background: #93B1A6;
+  /* margin-top: 80px; */
   text-align: center;
+  padding-top:80px ;
 }
 
 @media (min-width: 992px) {
   footer {
     text-align: left;
-    margin-top: 120px;
+    /* margin-top: 120px; */
   }
 }
 
@@ -741,7 +750,7 @@ footer h4 {
   font-size: 17px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #ECF4D6;
   margin-bottom: 30px;
   margin-top: 45px;
 }
@@ -759,7 +768,7 @@ footer ul.info li {
 
 footer ul.info li a {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #fff;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -779,7 +788,7 @@ footer ul.social-links li {
 
 footer ul.social-links li a {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #fff;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -822,7 +831,7 @@ footer form#subscribe button {
   background-color: transparent;
   border: none;
   font-size: 14px;
-  color: #7a7a7a;
+  color: #fff;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -853,7 +862,8 @@ footer .sub-footer a.scroll-to-top {
 @media (min-width: 992px) {
   footer .sub-footer a.scroll-to-top {
     text-align: right;
-    color: #7a7a7a;
+    color: #ECF4D6;
+    font-weight: 700;
   }
 }
 
@@ -1073,7 +1083,7 @@ section.interior-design .right-content .accordion-body {
 
 .what-they-say .testimonial-item span {
   font-size: 14px;
-  color: #7a7a7a;
+  color: #fff;
   display: block;
   margin-bottom: 8px;
 }
@@ -1327,7 +1337,7 @@ section.explore-item .projects-pagination .right-content h6:hover {
 }
 section.explore-item .projects-pagination .right-content span {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #ECF4D6;
 }
 
 section.explore-item .projects-pagination .left-content {
@@ -1377,6 +1387,7 @@ section.trending-page .card {
   section.trending-page .grid-item {
     width: 100%;
   }
+  
 }
 
 @media (min-width: 850px) {

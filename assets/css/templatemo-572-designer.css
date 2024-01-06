@@ -728,10 +728,10 @@ footer.no-margin-footer {
 }
 
 footer {
-  background: #93B1A6;
+  background: #4b506c;
   /* margin-top: 80px; */
   text-align: center;
-  padding-top:80px ;
+  padding-top:40px ;
 }
 
 @media (min-width: 992px) {
@@ -742,17 +742,16 @@ footer {
 }
 
 footer .about-widget img {
-  max-width: 273px;
+  max-width: 250px;
   margin-bottom: 45px;
 }
 
 footer h4 {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
   color: #ECF4D6;
-  margin-bottom: 30px;
-  margin-top: 45px;
+  padding: 25px 0;
 }
 
 @media (min-width: 992px) {
@@ -763,7 +762,6 @@ footer h4 {
 
 footer ul.info li {
   display: block;
-  margin-bottom: 20px;
 }
 
 footer ul.info li a {
@@ -771,19 +769,20 @@ footer ul.info li a {
   color: #fff;
   -webkit-transition: all .5s;
   transition: all .5s;
+  
 }
 
 footer ul.info li a:hover {
-  color: #ff565b;
+  color: #e22128;
+  text-shadow: none;
 }
 
 footer ul.info li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 footer ul.social-links li {
   display: block;
-  margin-bottom: 20px;
 }
 
 footer ul.social-links li a {
@@ -802,7 +801,7 @@ footer ul.social-links li a:hover {
 }
 
 footer ul.social-links li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 footer form#subscribe {
@@ -840,10 +839,6 @@ footer form#subscribe button:hover {
   color: #ff565b;
 }
 
-footer .sub-footer {
-  margin-top: 60px;
-  padding-bottom: 20px;
-}
 
 footer .sub-footer p a {
   color: #ff565b;
@@ -854,7 +849,7 @@ footer .sub-footer a.scroll-to-top {
   width: 100%;
   display: inline-block;
   font-size: 15px;
-  color: #ff565b;
+  color: #e22128;
   -webkit-transition: all .5s;
   transition: all .5s;
 }

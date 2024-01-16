@@ -6,7 +6,7 @@ async function displaySuwar(){
     const displaySurah = document.querySelector("#displaySurah")
     const res = await fetch(`${apiUrl}/tafsir`)
     const data = await res.json()
-    // console.log(data);
+   
     const tafasir = data.tafasir.soar
 
     data.tafasir.soar.forEach((item) =>

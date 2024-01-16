@@ -20,7 +20,7 @@ getReciters()
 
 
 async function getMoshaf(reciter){
-    // console.log(reciter);
+    
 
     const chooseMoshaf = document.querySelector('#chooseMoshaf')
 
@@ -28,7 +28,7 @@ async function getMoshaf(reciter){
     const data = await res.json()
     const moshaf = data.reciters[0].moshaf
     
-    console.log(moshaf);
+    
     chooseMoshaf.innerHTML =
     `<option
        value=""
@@ -44,7 +44,7 @@ async function getMoshaf(reciter){
             data-surahList="${moshaf.surah_list}"
             >${moshaf.name}</option>
          `
-        // console.log(moshaf);
+        
     });
 
 
@@ -61,7 +61,7 @@ async function getMoshaf(reciter){
 async function getSurah(surahServer , surahList){
     const chooseSurah = document.querySelector('#chooseSurah')
 
-    console.log(surahServer);
+    
 
     const res = await fetch(`https://mp3quran.net/api/v3/suwar`)
     const data = await res.json()

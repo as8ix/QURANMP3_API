@@ -1,0 +1,2 @@
+ErrorDocument 404 "<H1>Page not found</H1>"
+ErrorDocument 401 "<H1>Page not found</H1>"

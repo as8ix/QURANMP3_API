@@ -1,0 +1,8 @@
+.card-body div{
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 12px;
+    border: 1ex solid #cdd4d2;
+    box-shadow: 1px 1px 10px;
+}

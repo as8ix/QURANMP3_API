@@ -75,6 +75,7 @@ async function getSurah(surahServer , surahList){
         const padSurah = surah.padStart(3,'0')
 
         surahNames.forEach(surahName => {
+            // console.log(surahName);
             if(surahName.id == surah){
                 chooseSurah.innerHTML += `<option value="${surahServer}${padSurah}.mp3" >${surahName.name}</option> `
             }
@@ -91,9 +92,11 @@ async function getSurah(surahServer , surahList){
 function playSurah(surahMp3) {
     const audioPlayer = document.querySelector('#audioPlayer')
     audioPlayer.src = surahMp3
-    audioPlayer.play()
+    
 
 }
+playSurah()
+
 function playLive(channel){
     if(Hls.isSupported()) {
         var video = document.getElementById('liveVideo');

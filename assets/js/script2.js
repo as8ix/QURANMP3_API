@@ -10,7 +10,7 @@ async function displaySuwar(){
     const tafasir = data.tafasir.soar
 
     data.tafasir.soar.forEach((item) =>
-    displaySurah.innerHTML += `<button onclick="playAudio(value)" type="button" class="btn btn-primary col-3 mx-2 my-2" style="width: 280px;text-shadow: 2px 1px 5px #000;"
+    displaySurah.innerHTML += `<button onclick="playAudio(value)" type="button" class="btn btn-primary col-3 mx-2 my-2 " style="width: 280px;text-shadow: 2px 1px 5px #000;"
         value=${item.url}> تفسير ${item.name}</button>`);
         
 

@@ -252,10 +252,14 @@ https://templatemo.com/tm-572-designer
                 <div class="sub-footer">
                     <div class="row">
                         <div class="col-lg-6">
-                            <p>Copyright © 2022 Designer Co., Ltd. All Rights Reserved. 
-                            
-                            <br>Design: as8ix_dev</a></p>
-                        </div>
+                            <p>Copyright © <span id="year"></span> Designer Co., Ltd. All Rights Reserved.
+                              <br>Design: as8ix_dev</p>
+                          </div>
+                          
+                          <script>
+                            document.getElementById("year").textContent = new Date().getFullYear();
+                          </script>
+                          
                         <div class="col-lg-6">
                             <a href="#top" class="scroll-to-top">
                                 الرجوع إلى الاعلى

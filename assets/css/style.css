@@ -6,3 +6,9 @@
     border: 1ex solid #cdd4d2;
     box-shadow: 1px 1px 10px;
 }
+.btn-button{
+    background-color: #272D2D;
+}
+.btn-button a {
+    color:beige;
+}

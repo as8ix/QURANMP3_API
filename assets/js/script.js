@@ -15,6 +15,7 @@ async function getReciters(){
     data.reciters.forEach(reciter => chooseReciter.innerHTML += `<option value="${reciter.id}">${reciter.name}</option>`);
     chooseReciter.addEventListener('change', e => getMoshaf(e.target.value))
 } 
+console.log(getReciters);
 
 getReciters()
 

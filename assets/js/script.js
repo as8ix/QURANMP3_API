@@ -21,7 +21,6 @@ async function getReciters() {
     chooseReciter.addEventListener('change', e => getMoshaf(e.target.value));
 }
 
-console.log(getReciters);
 
 getReciters();
 

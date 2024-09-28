@@ -7,6 +7,16 @@ https://templatemo.com/tm-572-designer
 */
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
 
+@font-face {
+  font-family: 'SFRuqahLoop'; /* Name the font */
+  src: url('/assets/fonts/alfont_com_Sultan-Ruqah-Loop-Bold-1.ttf') format('truetype'); /* Link to your .ttf file */
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Now apply the font to your website */
+
+
 body {
   font-family: 'Changa', sans-serif;
 }
@@ -60,7 +70,7 @@ ul li {
 p {
   font-size: 15px;
   line-height: 28px;
-  color: #ECF4D6;
+  color: #EFF1C5;
   text-shadow: 2px 1px 5px #000;
 }
 
@@ -68,8 +78,8 @@ button.main-button {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #ffffff;
-  background-color: #9AD0C2;
+  color: #EFF1C5;
+  background-color: #101820;
   padding: 11px 25px;
   border-radius: 7.5px;
   display: inline-block;
@@ -80,15 +90,15 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #2a2a2a;
+  background-color: #101820;
 }
 
 .primary-button a {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #ffffff;
-  background-color: #9AD0C2;
+  color: #EFF1C5;
+  background-color: #101820;
   padding: 11px 25px;
   border-radius: 7.5px;
   display: inline-block;
@@ -97,15 +107,15 @@ button.main-button:hover {
 }
 
 .primary-button a:hover {
-  background-color: #2a2a2a;
+  background-color: #101820;
 }
 
 .white-button a {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #9AD0C2;
-  background-color: #ffffff;
+  color: #101820;
+  background-color: #EFF1C5;
   padding: 11px 25px;
   border-radius: 7.5px;
   display: inline-block;
@@ -114,8 +124,8 @@ button.main-button:hover {
 }
 
 .white-button a:hover {
-  color: #ffffff;
-  background-color: #9AD0C2;
+  color: #EFF1C5;
+  background-color: #101820;
 }
 .form{
   background-color: #3F4E4F;
@@ -140,7 +150,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #101820;
   line-height: 32px;
   letter-spacing: -0.5px;
 }
@@ -172,7 +182,7 @@ section {
 }
 
 .loader {
-  background-color: #2a2a2a;
+  background-color: #101820;
   position: fixed;
   right: 0;
   left: 0;
@@ -191,7 +201,7 @@ section {
 
 .loader svg path,
 .loader svg rect {
-  fill: #9AD0C2;
+  fill: rgb(34, 46, 81)
 }
 
 .main-navigation {
@@ -203,7 +213,7 @@ section {
 }
 
 .navbar-nav {
-  background-color: #2a2a2a;
+  background-color: #101820;
   border-radius: 7.5px;
   padding: 10px 20px;
   margin-top: 10px;
@@ -222,7 +232,7 @@ header.nav-scrolled .main-navigation {
   padding: 10px 0px;
   position: fixed;
   z-index: 222;
-  background-color: #2a2a2a;
+  background-color: #101820;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
@@ -300,7 +310,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #EFF1C5;
   font-size: 18px;
   font-weight: 600;
   padding: 12px 20px;
@@ -311,12 +321,12 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #9AD0C2;
+  color: #bca66c;
 }
 
 .navbar-light .navbar-nav .nav-item .active {
   font-weight: 600;
-  color: #ff565b;
+  color: #101820;
   background-color: transparent;
   text-shadow:none;
 
@@ -326,15 +336,15 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 
 @media (min-width: 992px) {
   .navbar-light .navbar-nav .nav-item .active {
-    background-color: #ffffff;
+    background-color: #EFF1C5;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    border-top: 2px solid #ff565b;
+    border-top: 2px solid #bca66c;
   }
 }
 
 .navbar-light .navbar-toggler {
-  background-color: #fff;
+  background-color: #EFF1C5;
 }
 
 button:focus:not(:focus-visible) {
@@ -344,7 +354,7 @@ button:focus:not(:focus-visible) {
 
 .main-banner {
   background-color: #333;
-  background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+  background-image: url(../images/wallpaperflare.com_wallpaper\ \(2\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -360,31 +370,37 @@ button:focus:not(:focus-visible) {
 
 .main-banner h6 {
   font-size: 50px;
-  color: #ffffffce;
+  color: #eff1c5;
   font-weight: 600;
+  font-size: 90px;
+  text-shadow:
+
+    -1px -1px 0 #000, /* top-left */
+      1px -1px 0 #000, /* top-right */
+    -1px  1px 0 #000, /* bottom-left */
+      1px  1px 0 #000; /* bottom-right */
 }
 
 .main-banner h2 {
-  color: #ffffffce;
-  font-size: 90px;
+  color: #eff1c5;
+  font-size: 120px;
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: 25px;
+  text-shadow:
+    -1px -1px 0 #000, /* top-left */
+      1px -1px 0 #000, /* top-right */
+    -1px  1px 0 #000, /* bottom-left */
+      1px  1px 0 #000; /* bottom-right */
 }
-
-.main-banner h2 em {
-  font-style: normal;
-  color: #ff565bce;
-}
-
 .search-form {
   margin-top: -150px;
 }
 
 .search-form #search-form {
   padding: 30px;
-  background-color: #2C3639;
-  color: #eeeeee;
+  background-color: #101820;
+  color: #EFF1C5;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 7.5px;
@@ -413,7 +429,7 @@ button:focus:not(:focus-visible) {
   width: 100%;
   height: 44px;
   border-radius: 7.5px;
-  border: 1px solid #7f7d7d87;
+  border: 1px solid #bca66c;
   font-size: 18px;
   padding: 0px 15px;
   margin-bottom: 30px;
@@ -450,11 +466,11 @@ section.explore-work .right-content ul li:last-child {
 
 section.explore-work .right-content ul li h4 {
   font-size: 20px;
-  color: #2a2a2a;
+  color: #bca66c;
   font-weight: 700;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid #EFF1C5;
 }
 
 section.explore-work .right-content ul li ul.info li {
@@ -464,7 +480,7 @@ section.explore-work .right-content ul li ul.info li {
 
 section.explore-work .right-content ul li ul.info li span {
   font-size: 15px;
-  color: #ECF4D6;
+  color: #bca66c;
   display: block;
   width: 250px;
   height: 50px;
@@ -489,13 +505,13 @@ section.explore-work .right-content ul li ul.info li h6 {
 section.explore-work .right-content ul li ul.info li h6 a {
   font-size: 17px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 section.explore-work .right-content ul li ul.info li h6 a:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 section.explore-work .right-content ul li ul.info li em {
@@ -550,7 +566,7 @@ section.whats-trending .right-image .thumb .hover-effect {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(255, 86, 91, 0.9);
+  background-color: #bca66c;
   border-radius: 7.5px;
   opacity: 0;
   visibility: hidden;
@@ -579,14 +595,14 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content h4 {
 section.whats-trending .right-image .thumb .hover-effect .inner-content h4 a {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
+  color: #EFF1C5;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 section.whats-trending .right-image .thumb .hover-effect .inner-content span {
   font-size: 15px;
-  color: #ffffff;
+  color: #EFF1C5;
   display: inline-block;
   -webkit-transform: translateX(30px);
           transform: translateX(30px);
@@ -629,7 +645,7 @@ section.whats-trending .right-image::after {
 }
 
 section.contact-us {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   padding: 60px 0px;
   background-image: url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
   background-repeat: no-repeat;
@@ -639,7 +655,7 @@ section.contact-us {
 
 @media (min-width: 992px) {
   section.contact-us {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     padding: 120px 0px;
   }
 }
@@ -668,7 +684,7 @@ section.contact-us form {
   padding: 30px;
   border-top-right-radius: 7.5px;
   border-bottom-right-radius: 7.5px;
-  background-color: #ffffff;
+  background-color: #EFF1C5;
   border-top-left-radius: 7.5px;
   border-bottom-left-radius: 7.5px;
   margin-bottom: 0px;
@@ -686,7 +702,7 @@ section.contact-us form input {
   width: 100%;
   height: 44px;
   border-radius: 7.5px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #EFF1C5;
   font-size: 14px;
   padding: 0px 15px;
   margin-bottom: 15px;
@@ -700,7 +716,7 @@ section.contact-us form textarea {
   height: 120px;
   max-height: 120px;
   border-radius: 7.5px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #EFF1C5;
   font-size: 14px;
   padding: 10px 15px;
   margin-bottom: 15px;
@@ -727,11 +743,11 @@ section.contact-us #map iframe {
 }
 
 footer.no-margin-footer {
-  /* margin-top: 60px; */
+  margin-top: 60px;
 }
 
 footer {
-  background: #4b506c;
+  background: #101820;
   /* margin-top: 80px; */
   text-align: center;
   padding-top:40px ;
@@ -753,7 +769,7 @@ footer h4 {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #ECF4D6;
+  color: #EFF1C5;
   padding: 25px 0;
 }
 
@@ -769,14 +785,14 @@ footer ul.info li {
 
 footer ul.info li a {
   font-size: 15px;
-  color: #fff;
+  color: #EFF1C5;
   -webkit-transition: all .5s;
   transition: all .5s;
   
 }
 
 footer ul.info li a:hover {
-  color: #e22128;
+  color: #bca66c;
   text-shadow: none;
 }
 
@@ -790,7 +806,7 @@ footer ul.social-links li {
 
 footer ul.social-links li a {
   font-size: 15px;
-  color: #fff;
+  color: #EFF1C5;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -800,7 +816,7 @@ footer ul.social-links li a svg {
 }
 
 footer ul.social-links li a:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 footer ul.social-links li:last-child {
@@ -814,7 +830,7 @@ footer form#subscribe {
 
 footer form#subscribe input {
   width: 100%;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #EFF1C5;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-top: none;
@@ -833,18 +849,18 @@ footer form#subscribe button {
   background-color: transparent;
   border: none;
   font-size: 14px;
-  color: #fff;
+  color: #EFF1C5;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 footer form#subscribe button:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 
 footer .sub-footer p a {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 footer .sub-footer a.scroll-to-top {
@@ -860,7 +876,7 @@ footer .sub-footer a.scroll-to-top {
 @media (min-width: 992px) {
   footer .sub-footer a.scroll-to-top {
     text-align: right;
-    color: #ECF4D6;
+    color: #EFF1C5;
     font-weight: 700;
   }
 }
@@ -870,7 +886,7 @@ footer .sub-footer a.scroll-to-top svg {
 }
 
 footer .sub-footer a.scroll-to-top:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 .page-banner {
@@ -890,7 +906,7 @@ footer .sub-footer a.scroll-to-top:hover {
 }
 
 .page-banner h2 {
-  color: #ffffff;
+  color: #EFF1C5;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -906,11 +922,11 @@ footer .sub-footer a.scroll-to-top:hover {
 
 .page-banner h2 em {
   font-style: normal;
-  color: #ff565b;
+  color: #bca66c;
 }
 
 .page-banner p {
-  color: #ffffff;
+  color: #EFF1C5;
 }
 
 .services {
@@ -920,7 +936,7 @@ footer .sub-footer a.scroll-to-top:hover {
 .services .service-item {
   padding: 30px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #EFF1C5;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 7.5px;
@@ -934,14 +950,14 @@ footer .sub-footer a.scroll-to-top:hover {
 }
 
 .services .service-item .icon {
-  fill: #ff565b;
+  fill: #bca66c;
 }
 
 .services .service-item h4 {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
 }
 
 section.interior-design .left-image {
@@ -975,12 +991,12 @@ section.interior-design .right-content h4 {
   margin-bottom: 0px;
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
 }
 
 section.interior-design .right-content .accordion-button {
   padding: 30px 0px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #EFF1C5;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -989,11 +1005,11 @@ section.interior-design .right-content .accordion-button {
   text-align: left;
   font-size: 17px;
   background-color: transparent;
-  color: #2a2a2a;
+  color: #101820;
 }
 
 section.interior-design .right-content .accordion-button:not(.collapsed) {
-  color: #2a2a2a;
+  color: #101820;
   border-bottom: none;
   background-color: transparent;
 }
@@ -1010,7 +1026,7 @@ section.interior-design .right-content .accordion-button:not(.collapsed)::after 
 }
 
 section.interior-design .right-content .accordion-button::after {
-  color: #2a2a2a;
+  color: #101820;
 }
 
 section.interior-design .right-content .accordion-collapse {
@@ -1019,7 +1035,7 @@ section.interior-design .right-content .accordion-collapse {
 
 section.interior-design .right-content .accordion-body {
   padding: 0px 0px 30px 0px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #EFF1C5;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -1053,7 +1069,7 @@ section.interior-design .right-content .accordion-body {
   z-index: 1;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  background-color: #ffffff;
+  background-color: #EFF1C5;
   border-radius: 7.5px;
   border-bottom-right-radius: 0px;
   position: relative;
@@ -1070,18 +1086,18 @@ section.interior-design .right-content .accordion-body {
   position: absolute;
   left: 30px;
   top: -20px;
-  fill: #ff565b;
+  fill: #bca66c;
 }
 
 .what-they-say .testimonial-item h4 {
   font-size: 18px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
 }
 
 .what-they-say .testimonial-item span {
   font-size: 14px;
-  color: #fff;
+  color: #EFF1C5;
   display: block;
   margin-bottom: 8px;
 }
@@ -1137,11 +1153,11 @@ section.interior-design .right-content .accordion-body {
 
 .what-they-say .carousel-indicators .active {
   opacity: 1;
-  background-color: #ff565b;
+  background-color: #bca66c;
 }
 
 .call-to-action {
-  background-color: #2a2a2a;
+  background-color: #101820;
   margin-top: 120px;
   padding: 45px 0px;
 }
@@ -1150,7 +1166,7 @@ section.interior-design .right-content .accordion-body {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #EFF1C5;
   margin: 0px 0px 20px 0px;
   text-align: center;
 }
@@ -1176,7 +1192,7 @@ section.interior-design .right-content .accordion-body {
 section.explore-item h2 {
   font-size: 34px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1217,7 +1233,7 @@ section.explore-item .project-info .info-item {
 
 section.explore-item .project-info .info-item h6 {
   font-size: 17px;
-  color: #2a2a2a;
+  color: #101820;
 }
 
 section.explore-item .project-info .info-item span {
@@ -1245,13 +1261,13 @@ section.explore-item .down-content h4 {
   margin-bottom: 20px;
   font-size: 34px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
   text-align: left;
   text-transform: uppercase;
 }
 
 section.explore-item .projects-pagination {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #EFF1C5;
   padding-top: 60px;
 }
 
@@ -1268,7 +1284,7 @@ section.explore-item .projects-pagination img {
 section.explore-item .projects-pagination .right-pagination {
   margin-top: 15px;
   padding-top: 30px;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #EFF1C5;
   text-align: right;
 }
 
@@ -1303,7 +1319,7 @@ section.explore-item .projects-pagination .right-content h6 {
   margin-top: 8px;
   font-size: 18px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
   text-transform: capitalize;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -1316,7 +1332,7 @@ section.explore-item .projects-pagination .right-content h6 {
 }
 
 section.explore-item .projects-pagination .right-content h6:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 .card-header{
   font-weight: 800;
@@ -1325,17 +1341,18 @@ section.explore-item .projects-pagination .right-content h6:hover {
   color: #302e2e;
 }
 .suwar button{
-  background: #FF9C33;
+  background: #a58b49;
   border: none;
   font-size: 20px;
 }
 .btn-primary:hover{
   transform: scale(1.01);
+  background-color: #101820;
   /* translate: ease 1ms; */
 }
 section.explore-item .projects-pagination .right-content span {
   font-size: 15px;
-  color: #ECF4D6;
+  color: #EFF1C5;
 }
 
 section.explore-item .projects-pagination .left-content {
@@ -1354,7 +1371,7 @@ section.explore-item .projects-pagination .left-content h6 {
   margin-top: 8px;
   font-size: 18px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #101820;
   text-transform: capitalize;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -1368,7 +1385,7 @@ section.explore-item .projects-pagination .left-content h6 {
 }
 
 section.explore-item .projects-pagination .left-content h6:hover {
-  color: #ff565b;
+  color: #bca66c;
 }
 
 section.explore-item .projects-pagination .left-content span {
@@ -1423,8 +1440,8 @@ section.trending-page .trending-item .thumb {
 }
 
 section.trending-page .trending-item .thumb span.banner {
-  background-color: #ff565b;
-  color: #ffffff;
+  background-color: #bca66c;
+  color: #EFF1C5;
   font-size: 14px;
   padding: 10px 16px;
   display: inline-block;
@@ -1449,20 +1466,20 @@ section.trending-page .trending-item .thumb .hover-effect .inner-content {
   padding: 20px 30px;
   border-bottom-left-radius: 7.5px;
   border-bottom-right-radius: 7.5px;
-  background-color: #ff565b;
+  background-color: #bca66c;
 }
 
 section.trending-page .trending-item .thumb .hover-effect .inner-content h4 {
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #EFF1C5;
   margin: 0px;
   margin-right: 20px;
 }
 
 section.trending-page .trending-item .thumb .hover-effect .inner-content a.icon {
-  color: #ffffff;
+  color: #EFF1C5;
   right: 30px;
   bottom: 18px;
   position: absolute;
@@ -1497,7 +1514,7 @@ section.contact-us-page {
 
 section.contact-us-page .contact-page-form {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #EFF1C5;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 7.5px;
@@ -1524,7 +1541,7 @@ section.contact-us-page .contact-page-form form input {
   width: 100%;
   height: 44px;
   border-radius: 7.5px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #EFF1C5;
   font-size: 14px;
   padding: 0px 15px;
   margin-bottom: 15px;
@@ -1538,7 +1555,7 @@ section.contact-us-page .contact-page-form form textarea {
   height: 120px;
   max-height: 120px;
   border-radius: 7.5px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #EFF1C5;
   font-size: 14px;
   padding: 10px 15px;
   margin-bottom: 15px;
@@ -1551,7 +1568,7 @@ section.contact-us-page .contact-page-form form button.main-button {
 section.contact-us-page .right-info ul {
   margin-top: 30px;
   padding-top: 30px;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #EFF1C5;
 }
 
 @media (min-width: 992px) {
@@ -1567,7 +1584,7 @@ section.contact-us-page .right-info ul li {
   width: 100%;
   padding: 30px;
   border-radius: 7.5px;
-  background-color: #ff565b;
+  background-color: #bca66c;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -1577,7 +1594,7 @@ section.contact-us-page .right-info ul li:last-child {
 }
 
 section.contact-us-page .right-info ul li .icon {
-  fill: #ffffff;
+  fill: #EFF1C5;
 }
 
 section.contact-us-page .right-info ul li h6 {
@@ -1585,11 +1602,11 @@ section.contact-us-page .right-info ul li h6 {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
-  color: #ffffff;
+  color: #EFF1C5;
 }
 
 section.contact-us-page .right-info ul li span {
   font-size: 15px;
-  color: #ffffff;
+  color: #EFF1C5;
 }
 /*# sourceMappingURL=style.css.map */

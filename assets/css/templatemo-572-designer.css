@@ -1343,13 +1343,13 @@ section.explore-item .projects-pagination .right-content h6:hover {
   color: #302e2e;
 }
 .suwar button{
-  background: #bd9204;
+  background: #101820;
   border: none;
   font-size: 20px;
 }
 .btn-primary:hover{
   transform: scale(1.01);
-  background-color: #101820;
+  background-color: #bca66c;
   /* translate: ease 1ms; */
 }
 section.explore-item .projects-pagination .right-content span {

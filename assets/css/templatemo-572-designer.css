@@ -8,10 +8,9 @@ https://templatemo.com/tm-572-designer
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
 
 @font-face {
-  font-family: 'SFRuqahLoop'; /* Name the font */
-  src: url('/assets/fonts/alfont_com_Sultan-Ruqah-Loop-Bold-1.ttf') format('truetype'); /* Link to your .ttf file */
-  font-weight: bold;
-  font-style: normal;
+  font-family: SFRuqahLoop; /* Name the font */
+  src: url('../fonts/alfont_com_Sultan-Ruqah-Loop-Bold-1.ttf') /* Link to your .ttf file */
+  
 }
 
 /* Now apply the font to your website */

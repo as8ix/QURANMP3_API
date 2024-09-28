@@ -43,11 +43,11 @@ body {
 .accordion-item {
 	border: none;
 }
-/* .card-body button{
+.card-body button{
   width: 80%;
   text-align: center;
-  justify-content: ;
-} */
+  justify-content: center;
+}
 
 img {
   width: 100%;

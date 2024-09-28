@@ -24,9 +24,9 @@ body {
   }
 }
 .logo{
-  max-width: 120px;
+  max-width: 190px;
   position: absolute;
-  top: 0px;
+  top: 10px;
 }
 .accordion-item {
 	border: none;
@@ -230,7 +230,9 @@ header.nav-scrolled .main-navigation {
 header.nav-scrolled .main-navigation .navbar-brand {
   padding: 0px;
 }
-
+header.nav-scrolled .navbar-brand img{
+  width: 120px;
+}
 header.nav-scrolled .main-navigation .navbar-nav {
   margin-top: 0px;
 }
@@ -246,6 +248,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .nav-link {
   header.nav-scrolled .main-navigation .navbar-nav .nav-item .nav-link {
     font-weight: 400;
   }
+  
 }
 
 header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {

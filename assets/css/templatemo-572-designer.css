@@ -21,6 +21,9 @@ body {
   font-family: 'Changa', sans-serif;
 }
 
+.header-text{
+  font-family: 'SFRuqahLoop', Arial, sans-serif;
+}
 .expanded {
   max-width: 1320px;
 }

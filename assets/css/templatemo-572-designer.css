@@ -494,6 +494,7 @@ section.explore-work .right-content ul li ul.info li span {
     display: inline-block;
     float: left !important;
   }
+  
 }
 
 section.explore-work .right-content ul li ul.info li span svg {
@@ -528,6 +529,7 @@ section.explore-work .right-content ul li ul.info li em {
   section.explore-work .right-content ul li ul.info li em {
     display: inline;
   }
+  
 }
 
 section.whats-trending .section-heading,
@@ -905,6 +907,7 @@ footer .sub-footer a.scroll-to-top:hover {
   .page-banner {
     padding: 180px 0px;
   }
+  
 }
 
 .page-banner h2 {
@@ -1331,6 +1334,9 @@ section.explore-item .projects-pagination .right-content h6 {
   section.explore-item .projects-pagination .right-content h6 {
     margin-top: 28px;
   }
+  .boxSuwar .btn{
+    width: 20px;
+  }
 }
 
 section.explore-item .projects-pagination .right-content h6:hover {
@@ -1342,11 +1348,19 @@ section.explore-item .projects-pagination .right-content h6:hover {
   text-align: center;
   color: #302e2e;
 }
+
 .suwar button{
   background: #101820;
   border: none;
   font-size: 20px;
+  
 }
+.boxSuwar{
+  overflow-y: scroll;
+  height: 2000px;
+  border: #3F4E4F44 2.5px solid;
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15)}
 .btn-primary:hover{
   transform: scale(1.01);
   background-color: #bca66c;
@@ -1367,6 +1381,7 @@ section.explore-item .projects-pagination .left-content {
   section.explore-item .projects-pagination .left-content {
     margin-right: 25px;
   }
+  
 }
 
 section.explore-item .projects-pagination .left-content h6 {
@@ -1411,12 +1426,14 @@ section.trending-page .card {
   section.trending-page .grid-item {
     width: 50%;
   }
+  
 }
 
 @media (min-width: 1200px) {
   section.trending-page .grid-item {
     width: 33%;
   }
+  
 }
 
 @media (min-width: 1400px) {
